@@ -37,7 +37,7 @@ dig.Layers.TutorialFive = dig.Layer.extend({
   initializeScore: function () {
     var score = new dig.Labels.Score()
     this.addChild(score)
-    score.setPosition(727, 413)
+    score.setPosition(600, 413)
     score.addToMultiplier(2)
     score.add(332)
   },
